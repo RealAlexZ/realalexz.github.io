@@ -129,7 +129,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #000;
+  background-color: var(--first-color-lighten);
 }
 
 /*===== NAV =====*/
@@ -148,7 +148,7 @@ img {
     width: 100%;
     padding-top: 1.5rem;
     text-align: center;
-    background-color: #000;
+    background-color: var(--first-color-dark);
     transition: .4s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 1rem 1rem;
@@ -160,7 +160,7 @@ img {
 }
 
 .nav__link {
-  color: var(--first-color-lighten);
+  color: var(--first-color-dark); /*todo*/
   transition: .3s;
 }
 
@@ -169,7 +169,7 @@ img {
 }
 
 .nav__logo, .nav__toggle {
-  color: var(--first-color-lighten);
+  color: var(--first-color-dark); /*todo*/
 }
 
 .nav__toggle {
@@ -243,7 +243,7 @@ img {
 
 /*===== HOME =====*/
 .home {
-  background-color: #000;
+  background-color: var(--first-color-lighten);
   overflow: hidden;
 }
 
@@ -257,7 +257,7 @@ img {
 
 .home__data {
   border-left: 4px solid var(--first-color-lighten);
-  color: var(--first-color-lighten);
+  color: var(--first-color-dark); /*todo*/
   padding-left: 1.5rem;
   z-index: var(--z-tootip);
 }
@@ -386,7 +386,7 @@ img {
 
 .qualification__box {
   padding-bottom: 1rem;
-  border-bottom: 1px solid #CCC;
+  /* border-bottom: 1px solid #CCC; */
 }
 
 .qualification__area {
