@@ -118,6 +118,10 @@ img {
   margin-right: var(--mb-2);
 }
 
+.home__container.bd-container.bd-grid {
+  margin-top: 4.3rem;
+}
+
 .bd-grid {
   display: grid;
   gap: 1.5rem;
